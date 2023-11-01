@@ -48,7 +48,7 @@ namespace Orders
             Console.WriteLine();
             Console.WriteLine("--------------------------------------------------------------------");
 
-            Console.Write("Enter month and year to calculate the income (MM/YYYY): ");
+            Console.Write("Enter month and year to calculate the income (MM/YYYY):");
             string monthYear = Console.ReadLine();
 
             int month = int.Parse(monthYear.Substring(0, 2));
